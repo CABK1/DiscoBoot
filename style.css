@@ -1,0 +1,69 @@
+/* style.css */
+
+body {
+    font-family: Segoe UI Semibold, Baskerville Old Face;
+    background-color: #FCE587; 
+    color: #333; 
+}
+
+h2 {
+    color: #F61F0D; 
+}
+
+form {
+    background-color: #b0e0e6; 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    color: #4BDA5C; 
+}
+
+input[type="text"],
+input[type="submit"] {
+    background-color: #5FA06C; 
+    color: #fff; 
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0AF4D1;
+}
+
+/* Modificación de estilos para botones de editar y eliminar */
+
+a.btn.btn-info.btn-sm {
+    background-color: #FF0000; /* Rojo */
+    color: #FFFFFF; /* Texto en blanco */
+}
+
+a.btn.btn-danger.btn-sm {
+    background-color: #000000; /* Negro */
+    color: #FFFFFF; /* Texto en blanco */
+}
+
+/* Estilos para la tabla */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #9FFEDE; /* Fondo de la tabla */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+th, td {
+    border: 2px solid #FA2204; 
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #37B93B; 
+    color: #fff; 
+}

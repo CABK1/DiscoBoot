@@ -1,0 +1,71 @@
+body {
+    font-family: Segoe UI Semibold, Baskerville Old Face;
+    background-color: #f0f0f0; /* Color de fondo para la página */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #87ceeb; /* Color de fondo azul cielo para el contenedor del formulario */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del contenedor */
+    max-width: 500px; /* Ancho máximo del contenedor */
+    width: 90%; /* Ancho del contenedor */
+}
+
+h2 {
+    text-align: center;
+    color: #333333; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555555; /* Color del texto de las etiquetas */
+}
+
+input[type="text"],
+select {
+    width: calc(100% - 22px); /* Ancho del campo de entrada */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc; /* Borde del campo de entrada */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Estilos específicos para la lista desplegable (select) */
+select {
+    appearance: none; /* Oculta el estilo predeterminado del sistema operativo */
+    -webkit-appearance: none; /* Para navegadores basados en WebKit (Safari, Chrome) */
+    -moz-appearance: none; /* Para navegadores basados en Gecko (Firefox) */
+    background-color: #ffffff; /* Color de fondo de la lista desplegable */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="#555555" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* Ícono de flecha para la lista desplegable */
+    background-repeat: no-repeat;
+    background-position: right 8px top 50%;
+    padding-right: 30px; /* Espacio para el ícono de flecha */
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4682b4; /* Color del botón */
+    color: #ffffff; /* Color del texto del botón */
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #355d80; /* Cambia el color del botón al pasar el ratón sobre él */
+}
